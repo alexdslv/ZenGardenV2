@@ -27,4 +27,31 @@ p{
     color: $toto;
 }
 
+.explanation{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
+.participation{
+    @extend .explanation;
+}
+
+.requirements{
+    @extend .explanation;
+}
+
+.benefits{
+    @extend .explanation;
+}
+
+.design-selection{
+    @extend .explanation;
+}
+
+.design-archives{
+    @extend .explanation;
+}
+
+.zen-resources{
+    @extend .explanation;
+}

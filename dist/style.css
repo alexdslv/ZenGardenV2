@@ -27,4 +27,9 @@ p {
   color: grey;
 }
 
+.explanation, .zen-resources, .design-archives, .design-selection, .benefits, .requirements, .participation {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
