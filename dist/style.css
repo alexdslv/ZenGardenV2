@@ -1,35 +1,52 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?cs=srgb&dl=photo-of-green-data-matrix-1089438.jpg&fm=jpg);
+  font-family: "Courier New", Courier, monospace;
+}
+
 h1 {
   color: red;
-  border: 2px solid green;
+  border: 5px solid #3efc77;
   padding: 15px;
-  background: orange;
-  font-size: 25px;
+  font-size: 45px;
+  text-align: center;
 }
 
 h2 {
-  color: orange;
+  color: #06c206;
+  text-align: center;
 }
 h2:hover {
-  color: green;
+  color: white;
 }
 
 h3 {
-  color: #383838;
-  border: 4px solid green;
-  padding: 20px;
-  background: grey;
+  color: #06c206;
+  border: 1px solid #3efc77;
+  padding: 4px;
+  background: rgba(128, 128, 128, 0.404);
+  text-align: center;
 }
 h3:hover {
-  color: orange;
+  color: white;
 }
 
 p {
-  color: grey;
+  color: white;
 }
 
 .explanation, .zen-resources, .design-archives, .design-selection, .benefits, .requirements, .participation {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

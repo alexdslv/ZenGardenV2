@@ -1,30 +1,37 @@
 @import "mixins.scss";
 @import "variables.scss";
 
+body{
+    background-image: url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?cs=srgb&dl=photo-of-green-data-matrix-1089438.jpg&fm=jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h1{
     color: $boum;
     @include top;
 }
 
 h2{
-    color: $ah;
+    color: $green;
+    text-align: center;
 
     &:hover{
-        color: $oklm;
+        color: $light;
     }
 }
 
 h3{
-    color: $noir;
+    color: $green;
     @include back;
+    text-align: center;
 
     &:hover{
-        color: $ah;
+        color: $light;
     }
 }
 
 p{
-    color: $toto;
+    color: $light;
 }
 
 .explanation{
@@ -54,4 +61,15 @@ p{
 
 .zen-resources{
     @extend .explanation;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    color: $light;
+
 }
