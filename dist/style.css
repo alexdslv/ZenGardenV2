@@ -34,9 +34,14 @@ p {
   color: white;
 }
 
-.explanation, .zen-resources, .design-archives, .design-selection, .benefits, .requirements, .participation {
+.explanation, .benefits, .requirements, .participation {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.design-selection, .zen-resources, .design-archives {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .wrapper {

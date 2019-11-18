@@ -52,15 +52,16 @@ p{
 }
 
 .design-selection{
-    @extend .explanation;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .design-archives{
-    @extend .explanation;
+    @extend .design-selection;
 }
 
 .zen-resources{
-    @extend .explanation;
+    @extend .design-selection;
 }
 
 .wrapper{
