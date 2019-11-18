@@ -1,0 +1,30 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+h1{
+    color: $boum;
+    @include top;
+}
+
+h2{
+    color: $ah;
+
+    &:hover{
+        color: $oklm;
+    }
+}
+
+h3{
+    color: $noir;
+    @include back;
+
+    &:hover{
+        color: $ah;
+    }
+}
+
+p{
+    color: $toto;
+}
+
+

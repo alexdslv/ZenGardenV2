@@ -1,0 +1,12 @@
+@mixin top {
+    border: 2px solid $oklm;
+    padding: 15px;
+    background: $ah;
+    font-size: 25px;    
+}
+
+@mixin back {
+    border: 4px solid $oklm;
+    padding: 20px;
+    background: $toto;
+}
